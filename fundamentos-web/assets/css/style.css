@@ -1,9 +1,12 @@
 body {
 	font-family: 'Poppins', sans-serif;
+	height: 100vh;
 }
 
+/* home page */
 .paragraphs {
 	font-family: 'Work Sans', sans-serif;
+	width: 40%;
 }
 
 .center {
@@ -50,6 +53,43 @@ body {
 	border-radius: 30%;
 }
 
+/* contact page*/
+
 iframe {
 	margin-bottom: 40px;
+}
+
+#name {
+	margin: 5px 0px 25px 0px;
+	width: 60%;
+}
+
+#email {
+	margin: 5px 0px 25px 0px;
+	width: 60%;
+}
+
+#assunto {
+	margin: 5px 0px 25px 0px;
+	width: 100%;
+}
+
+button {
+	width: 30%;
+}
+
+.esq,
+.dir {
+	margin: 0px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
