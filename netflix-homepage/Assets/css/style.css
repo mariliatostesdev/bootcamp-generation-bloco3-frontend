@@ -1,0 +1,135 @@
+body {
+    background: url("https://i.imgur.com/07XQ5od.jpg");
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    margin-top: 0;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+img {
+    margin-left: 180px;
+}
+
+.but {
+    margin-right: 180px;
+    margin-left: 20px;
+    background-color: rgb(233, 19, 19);
+    font-size: 17px;
+    border-radius: 6px;
+    color: azure;
+    border: 0;
+    height: 30px;
+    width: 70px;
+    cursor:pointer;
+}
+
+.but:hover{
+background-color: brown;
+}
+
+.but2 {
+    margin-right: 30px;
+    background-color: rgb(233, 19, 19);
+    font-size: 20px;
+    border-radius: 6px;
+    color: azure;
+    height: 60px;
+    width: 180px;
+    cursor:pointer;
+}
+
+.but2:hover{
+    background-color: brown;
+    }
+
+input {
+    border-radius: 6px;
+    background-color: transparent;
+    width: 380px;
+    margin-right: 20px;
+    color: azure;
+
+}
+
+.select1 {
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: rgb(34, 34, 34);
+    color: azure;
+    background-color: transparent;
+    height: 30px;
+    width: 120px;
+}
+
+option {
+    color: black;
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 60px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+/* contato */
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+.ml-50 {
+    margin-left: 50px;
+ }
+
+ .container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+ }  
+
+ label{
+    color: azure;
+ }
+
+ p{
+    color: azure;
+ }
