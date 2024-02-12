@@ -1,0 +1,142 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+#menu {
+	display: flex;
+	justify-content: space-between;
+	background-color: #5de7c0;
+	align-items: center;
+}
+
+h1,
+a {
+	color: #313033;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+#top-left-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bi-hand-index-fill {
+	color: white;
+	font-size: 24px;
+	margin: 0px 10px;
+}
+
+.bi-keyboard,
+.bi-x-lg {
+	color: #00a778;
+	font-size: 24px;
+	margin: 0px 10px;
+}
+#top-right-menu {
+	display: flex;
+	align-items: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+#progress-bar {
+	display: flex;
+	background-color: #ffbb00;
+	width: 95%;
+	height: 20px;
+	border-radius: 10%;
+	margin: 30px 0px;
+	align-self: center;
+}
+
+#progress-bar h2 {
+	margin: 30px 0px;
+	font-weight: 400;
+}
+
+#question h2 {
+	margin: 30px 0px;
+	font-weight: 700;
+	font-size: 32px;
+}
+
+#exercise {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px 0px;
+	justify-content: space-between;
+}
+
+#top-part {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#help {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+#bottom-part {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#extra-options {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	flex-flow: column wrap;
+	justify-content: center;
+	max-width: 20%;
+}
+
+#answer-options {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	max-width: 65%;
+}
+
+.answer {
+	display: flex;
+	align-items: center;
+	border: 1px gray solid;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px gray;
+	padding: 10px;
+	width: 300px;
+	min-height: max-content;
+	justify-content: space-between;
+	margin: 15px;
+	text-align: center;
+}
+
+.answer-number {
+	background-color: #313033;
+	border-radius: 2px;
+	width: 10px;
+	height: auto;
+	text-align: center;
+	margin: 5px 10px;
+	padding: 5px;
+	color: white;
+}
+
+.answer-text {
+	width: 100%;
+	text-align: center;
+}
