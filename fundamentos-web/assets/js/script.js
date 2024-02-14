@@ -2,6 +2,7 @@ let nome = document.getElementById('name');
 let email = document.querySelector('#email');
 let nomeOk = false;
 let emailOk = false;
+let mapa = document.querySelector('#address-map');
 
 function validaNome() {
 	let txtNome = document.getElementById('txtNome');
