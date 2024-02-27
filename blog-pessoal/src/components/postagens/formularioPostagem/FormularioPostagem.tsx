@@ -154,7 +154,7 @@ function FormularioPostagem() {
 					/>
 				</div>
 				<div className="flex flex-col gap-2">
-					<label htmlFor="titulo">Texto da postagem</label>
+					<label htmlFor="texto">Texto da postagem</label>
 					<input
 						value={postagem.texto}
 						onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
