@@ -21,7 +21,7 @@ function Home() {
 					</div>
 
 					<div className="flex justify-center ">
-						<img src={homeLogo} alt="" className="w-2/3" />
+						<img src={homeLogo} alt="" className="w-[30%] rounded-full py-10" />
 					</div>
 				</div>
 			</div>
